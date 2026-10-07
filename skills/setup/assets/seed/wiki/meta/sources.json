@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "timezone": null,
+  "sources": {
+    "slack": {
+      "status": "disabled",
+      "tool_bindings": {},
+      "test": {
+        "state": "not_tested",
+        "at": null,
+        "scope": null,
+        "evidence": null
+      },
+      "user_id": null,
+      "display_name": null,
+      "workspace_url": null,
+      "full_capture_channels": [],
+      "include_sent": true,
+      "include_mentions": true,
+      "include_name_mentions": true,
+      "include_participated_dms": true,
+      "excluded_channel_ids": [],
+      "excluded_label_patterns": [],
+      "active_days": 9,
+      "backfill_days": 9,
+      "capture_start": null
+    },
+    "email": {
+      "status": "disabled",
+      "tool_bindings": {},
+      "test": {
+        "state": "not_tested",
+        "at": null,
+        "scope": null,
+        "evidence": null
+      },
+      "provider": "gmail",
+      "account": null,
+      "include_sent": true,
+      "include_direct": true,
+      "include_label_ids": [],
+      "exclude_label_ids": [],
+      "exclude_bulk_categories": false,
+      "exclude_automated": false,
+      "exclude_calendar_invites": false,
+      "active_days": 9,
+      "backfill_days": 9,
+      "capture_start": null,
+      "capture_all_mail": true
+    },
+    "transcripts": {
+      "status": "disabled",
+      "tool_bindings": {},
+      "test": {
+        "state": "not_tested",
+        "at": null,
+        "scope": null,
+        "evidence": null
+      },
+      "provider": "zoom",
+      "scope": "all_accessible",
+      "meeting_ids": [],
+      "window_days": 3,
+      "backfill_days": 14,
+      "retention": "unlimited",
+      "capture_start": null
+    },
+    "sessions": {
+      "status": "disabled",
+      "tool_bindings": {},
+      "test": {
+        "state": "not_tested",
+        "at": null,
+        "scope": null,
+        "evidence": null
+      },
+      "provider": "session_info",
+      "scope": "all_accessible",
+      "scope_filter": null,
+      "active_days": 9,
+      "capture_start": null
+    }
+  }
+}

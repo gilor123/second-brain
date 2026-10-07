@@ -1,0 +1,11 @@
+{
+  "name": "second-brain",
+  "version": "0.2.1",
+  "description": "Create a source-grounded personal wiki with guided setup and configurable collection and maintenance workflows.",
+  "author": {
+    "name": "Gil Or",
+    "url": "https://github.com/gilor123"
+  },
+  "repository": "https://github.com/gilor123/second-brain",
+  "license": "MIT"
+}
